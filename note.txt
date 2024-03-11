@@ -15,5 +15,13 @@ git push -u origin master (lần đầu tiên) / git push (lần thứ 2 trở �
 
 tạo nhánh, chuyển nhánh : commit trước khi thao tac
 git checkout -b tenNhanhMoi: tạo nhánh mới
-gir branch : hiển thị nhánh hiện tại
+git branch : hiển thị nhánh hiện tại
 git checkout tenNhanhCanChuyen : chuyển sang nhánh khác.
+
+Đem code từ nhánh login về master => đứng tại master : git merge login
+
+conflict code ~ xung đột ~ khi trên cùng 
+
+th1: giữ code mình, xóa code đồng nghiệp
+th2: xóa code mình, giữ code đồng nghiệp
+th3: giữ lại code cả 2
